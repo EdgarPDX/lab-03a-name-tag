@@ -34,17 +34,21 @@ lightGreenButton.addEventListener('click', () => {
     
 })
 
+// Input code
+const nameChangeButton = document.getElementById('click-change');
+const oldName = document.getElementById('name-name')
+const inputValue = document.getElementById('name-change')
 
-const userInput = document.getElementById('click-change');
-
-userInput.addEventListener('click', () => {
-   console.log(userInput)
-   
-   const inputValue = document.getElementById('name-change')
+nameChangeButton.addEventListener('click', () => {
+       
    //get input
-   console.log(inputValue.content)
-   //get value from input
+  
+    //validating input
+    const newName = inputValue.value
+        //get value from input
+    const nameChange =
    //get div
+       oldName.textContent = newName
    //set div content to value
 
     // post-click logic goes here!
